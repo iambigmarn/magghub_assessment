@@ -42,8 +42,6 @@ const FormDataScreen = ({ navigation }) => {
 
     if (!result.canceled) {
       setPhotoUri(result.assets[0].uri);
-    } else {
-      
     }
     setPhotoUriError('');
   };
